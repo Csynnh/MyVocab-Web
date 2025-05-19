@@ -7,6 +7,7 @@ import MyListWorkspace from "./pages/MyListWorkspace";
 import WorkspaceDetails from "./pages/WorkspaceDetails";
 import Dictionary from "./pages/Dictionary";
 import Home from "./pages/Home";
+import Translation from "./pages/Translation";
 import { ScrollToTopProvider } from "./providers/ScrollToTopProvider";
 import { Toaster } from "@/components/ui/toaster"
 import { Chatbox } from "./pages/Chatbox/Chatbox";
@@ -23,6 +24,7 @@ export default function App() {
               <Route path="/my-vocab/:title" element={<WorkspaceDetails />} />
               <Route path="/chatbox" element={<Chatbox />} />
               <Route path="/dictionary" element={<Dictionary />} />
+              <Route path="/translation" element={<Translation />} />
             </Route>
             <Route path="/sign-in" element={<SignIn />} />
             <Route path="/sign-up" element={<SignUp />} />

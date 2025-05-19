@@ -40,6 +40,11 @@ export function Header() {
               text="Chatbox"
               currentPath={currentPath}
             />
+            <HeaderLink
+              to="/translation"
+              text="Dịch"
+              currentPath={currentPath}
+            />
           </div>
         </NullAbleComponent>
       </div>
